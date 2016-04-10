@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<script src="jquery-2.2.3.min.js"></script>
+	<script src="app.js"></script>
+	<link rel="stylesheet" type="text/css" href="styles.css">
+	<link rel="stylesheet" type="text/css" href="types.css">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+<body>
+	<div class="content">
+		<h1>Pokedex</h1>
+		<div class="pokemonList">
+			<div class="selector">
+				<div class="typeSelect"></div>
+				<div class="resetSelect interact">X</div>
+			</div>
+		</div>
+		<div data-offset="" class="interact loadMore">Load more</div>
+		<div class="loading"><img src="spinner.gif"></div>
+		<div class="stage">
+			<div class="stageClose interact"></div>
+			<img class="stageImage" src="">
+			<h2 class="stageName"></h2>
+			<table class="stageDetails">
+				<tr>
+					<td>Type</td>
+					<td class="stageType"></td>
+				</tr>
+				<tr>
+					<td>Attack</td>
+					<td class="stageAttack"></td>
+				</tr>
+				<tr>
+					<td>Defense</td>
+					<td class="stageDefense"></td>
+				</tr>
+				<tr>
+					<td>HP</td>
+					<td class="stageHP"></td>
+				</tr>
+				<tr>
+					<td>SP Attack</td>
+					<td class="stageSPAttack"></td>
+				</tr>
+				<tr>
+					<td>SP Defense</td>
+					<td class="stageSPDefense"></td>
+				</tr>
+				<tr>
+					<td>Speed</td>
+					<td class="stageSpeed"></td>
+				</tr>
+				<tr>
+					<td>Weight</td>
+					<td class="stageWeight"></td>
+				</tr>
+				<tr>
+					<td>Total Moves</td>
+					<td class="stageTotalMoves"></td>
+				</tr>
+			</table>
+		</div>
+	</div>
+</body>
+</html>
