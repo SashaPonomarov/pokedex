@@ -1,5 +1,5 @@
 # pokedex
-Pokedex is a small app to access pokemon API of [pokeapi project] (http://pokeapi.co/) done as a test task for [Kottans] (http://kottans.org/) JS course.
+Pokedex is a small app to access pokemon API of [pokeapi project](http://pokeapi.co/) done as a test task for [Kottans](http://kottans.org/) JS course.
 The app is written in JS, using jQuery for DOM manipulation. Design is responsive, optimized for mobile.
 
 ## Instructions
